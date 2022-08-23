@@ -1,0 +1,22 @@
+Ever heard of those Sudoku puzzles? These are puzzles like the one below:
+
++---+---+---+  The goal is to fill each 3x3 square with the numbers 1 to 9.
+|...|9..|3.8|  However, the same number may not appear twice on a row or
+|.7.|15.|...|  column (therefore, each line horizontally must also list 1
+|..9|..8|..7|  to 9, same goes for each line vertically).
++---+---+---+
+|51.|...|7.9|  This program is capable of solving any [1] puzzle. You may
+|.8.|...|.3.|  find it interesting to see how this works, the code is well
+|3.7|...|.12|  commented and should describe my algorithm well.
++---+---+---+
+|2..|8..|9..|  Don't be an infant and abuse it to solve prize puzzles. The
+|...|.25|.4.|  program was designed to aid my mother when she is stuck in a
+|4.5|..1|...|  puzzle, so be a sport. Remember, cheating is for the weak :)
++---+---+---+
+
+Remember, there are multiple solutions to puzzles, so whenever I am feeling
+bored again, I may update the program to simply try all options and figure out
+when it has solved a puzzle.
+
+[1] I haven't encountered a puzzle it couldn't solve, except completely blank
+    puzzles. In the latter case, just insert a number somewhere and watch it go :)

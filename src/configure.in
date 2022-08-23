@@ -1,0 +1,7 @@
+AC_INIT(src/sudsol.c)
+
+AM_INIT_AUTOMAKE(sudsol,0.1)
+AC_PROG_CC
+AC_SUBST(CC)
+
+AC_OUTPUT(Makefile src/Makefile examples/Makefile)
